@@ -6,5 +6,5 @@ One of the functions is to provision the web application with data which is unav
 
 Also, the custom-web-server accepts commands to execute local to the OS actions, such as starting applications in the localy logged in user session. Check LaunchProcessCommand.cs and LaunchProcessCommandWin32Helper.cs
 
-The custm-web-server is loaded in a separate AppDomain and make use of shadow copies to hot-update the executing files. See KernelBootstrapper.cs
+The custom-web-server is loaded in a separate AppDomain and make use of shadow copies to hot-update the executing files. See KernelBootstrapper.cs
 
